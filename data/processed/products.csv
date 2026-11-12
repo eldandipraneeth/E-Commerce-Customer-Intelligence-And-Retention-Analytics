@@ -1,0 +1,501 @@
+product_id,category_id,product_name,brand,unit_cost,list_price
+1,1,Samsung Galaxy S24,Samsung,24924.02,33671.97
+2,1,Apple Galaxy A55,Apple,17760.39,23362.75
+3,1,OnePlus Galaxy M35,OnePlus,18599.28,22108.11
+4,1,Xiaomi iPhone 16,Xiaomi,15919.62,22108.32
+5,1,Vivo iPhone 15,Vivo,53177.96,62790.39
+6,1,Oppo iPhone SE,Oppo,27722.86,39350.36
+7,1,Realme Nord CE4,Realme,15884.61,19307.29
+8,1,Motorola Nord 4,Motorola,28435.46,34572.44
+9,1,Nothing 12 Pro,Nothing,22833.13,29079.07
+10,1,Google Redmi Note 14,Google,6780.71,8409.5
+11,1,Samsung Redmi 14C,Samsung,11384.48,14121.54
+12,1,Apple POCO X7,Apple,24101.49,30314.6
+13,1,OnePlus V30,OnePlus,48232.74,58816.91
+14,1,Xiaomi V40,Xiaomi,17169.18,22214.98
+15,1,Vivo T3 Pro,Vivo,14033.33,18492.44
+16,1,Oppo Reno 12,Oppo,22231.55,26966.25
+17,1,Realme Find X8,Realme,13380.22,17903.19
+18,1,Motorola Narzo 70,Motorola,16767.56,21387.82
+19,1,Nothing GT 6T,Nothing,21207.58,25102.43
+20,1,Google C65,Google,9820.15,13761.39
+21,1,Samsung Edge 50,Samsung,32626.72,40618.72
+22,1,Apple Razr 50,Apple,9671.43,12527.92
+23,1,OnePlus Phone (2a),OnePlus,8297.8,11777.24
+24,1,Xiaomi Phone (3),Xiaomi,20789.38,28333.83
+25,1,Vivo Pixel 9,Vivo,32380.97,38699.61
+26,1,Oppo Pixel 8a,Oppo,22912.1,27921.07
+27,1,Realme Galaxy S24,Realme,18738.62,23668.89
+28,1,Motorola Galaxy A55,Motorola,17215.61,21272.28
+29,1,Nothing Galaxy M35,Nothing,15677.12,19405.74
+30,1,Google iPhone 16,Google,35732.92,46491.18
+31,1,Samsung iPhone 15,Samsung,25572.81,30486.74
+32,1,Apple iPhone SE,Apple,14227.75,20268.4
+33,1,OnePlus Nord CE4,OnePlus,14549.73,17134.03
+34,1,Xiaomi Nord 4,Xiaomi,26178.81,35975.68
+35,1,Vivo 12 Pro,Vivo,33629.39,45797.3
+36,1,Oppo Redmi Note 14,Oppo,36275.78,43242.42
+37,1,Realme Redmi 14C,Realme,11244.5,15605.78
+38,1,Motorola POCO X7,Motorola,16017.65,21173.22
+39,1,Nothing V30,Nothing,15424.2,19199.79
+40,1,Google V40,Google,18214.97,22733.97
+41,2,Dell Inspiron 15,Dell,67383.31,88121.65
+42,2,HP XPS 13,HP,92030.91,112423.11
+43,2,Lenovo Latitude 14,Lenovo,56243.59,72005.81
+44,2,Asus Pavilion 14,Asus,37017.52,45868.6
+45,2,Acer Victus 16,Acer,48935.73,60262.36
+46,2,Apple Spectre x360,Apple,101752.79,123423.54
+47,2,MSI IdeaPad 3,MSI,53429.46,63672.16
+48,2,Microsoft ThinkPad E16,Microsoft,43592.41,53560.84
+49,2,Dell Legion 5,Dell,45877.84,55498.49
+50,2,HP Vivobook 15,HP,56178.63,71860.05
+51,2,Lenovo ROG Strix G16,Lenovo,32363.43,42631.74
+52,2,Asus ZenBook 14,Asus,37903.16,48910.82
+53,2,Acer Aspire 5,Acer,71563.31,92277.53
+54,2,Apple Nitro V,Apple,60717.65,70952.9
+55,2,MSI Swift Go 14,MSI,49570.24,63958.89
+56,2,Microsoft MacBook Air M3,Microsoft,72155.16,94504.77
+57,2,Dell MacBook Pro M3,Dell,38023.04,44713.61
+58,2,HP Katana 15,HP,43596.44,52877.75
+59,2,Lenovo Surface Laptop 6,Lenovo,61469.35,69923.35
+60,2,Asus Surface Pro 10,Asus,56003.25,68833.64
+61,3,Sony WH-1000XM5,Sony,637.73,885.7
+62,3,JBL WF-1000XM5,JBL,1559.55,2343.09
+63,3,Bose Tune 770NC,Bose,1873.06,3019.6
+64,3,Sennheiser Live Pro 2,Sennheiser,3014.18,5248.95
+65,3,boAt QuietComfort Ultra,boAt,2316.84,4548.28
+66,3,Noise 700,Noise,2258.53,3287.26
+67,3,Skullcandy HD 450BT,Skullcandy,367.46,541.34
+68,3,Audio-Technica Momentum 4,Audio-Technica,2552.0,3445.03
+69,3,Sony Rockerz 450,Sony,2764.28,3750.05
+70,3,JBL Airdopes 141,JBL,17008.46,25000.0
+71,3,Bose Buds Pro,Bose,2090.8,2929.21
+72,3,Sennheiser ColorBuds 2,Sennheiser,2980.19,4748.27
+73,3,boAt Hesh Evo,boAt,7465.88,10810.86
+74,3,Noise Crusher ANC,Noise,4189.28,7376.2
+75,3,Skullcandy ATH-M50x,Skullcandy,8247.5,13940.6
+76,3,Audio-Technica ATH-M20x,Audio-Technica,552.9,897.49
+77,3,Sony WH-1000XM5 Black,Sony,992.78,1341.94
+78,3,JBL WF-1000XM5 White,JBL,1223.83,2032.0
+79,3,Bose Tune 770NC Silver,Bose,456.8,775.93
+80,3,Sennheiser Live Pro 2 Gold,Sennheiser,2670.75,3780.74
+81,3,boAt QuietComfort Ultra Blue,boAt,742.05,1438.59
+82,3,Noise 700 Red,Noise,11520.21,16098.23
+83,3,Skullcandy HD 450BT Green,Skullcandy,852.7,1643.52
+84,3,Audio-Technica Momentum 4 Grey,Audio-Technica,1369.25,2580.25
+85,3,Sony Rockerz 450 Rose Gold,Sony,4275.04,7834.12
+86,3,JBL Airdopes 141 Midnight,JBL,648.39,1060.85
+87,3,Bose Buds Pro Navy,Bose,533.41,733.99
+88,3,Sennheiser ColorBuds 2 Ivory,Sennheiser,2226.44,4235.23
+89,3,boAt Hesh Evo Charcoal,boAt,3032.62,4558.67
+90,3,Noise Crusher ANC Coral,Noise,5033.19,7595.01
+91,4,Allen Solly Slim Fit Shirt,Allen Solly,551.05,1708.23
+92,4,Peter England Casual Polo,Peter England,516.29,1500.74
+93,4,Van Heusen Chino Trousers,Van Heusen,399.94,855.17
+94,4,Louis Philippe Denim Jacket,Louis Philippe,463.09,1445.85
+95,4,Levi's Formal Blazer,Levi's,747.17,1497.37
+96,4,U.S. Polo Linen Kurta,U.S. Polo,392.25,838.44
+97,4,Raymond Henley T-Shirt,Raymond,1368.5,3702.57
+98,4,Arrow Oxford Shirt,Arrow,756.26,1661.57
+99,4,Allen Solly Jogger Pants,Allen Solly,313.9,721.75
+100,4,Peter England Cargo Shorts,Peter England,697.86,1989.9
+101,4,Van Heusen V-Neck Sweater,Van Heusen,811.55,2202.44
+102,4,Louis Philippe Track Pants,Louis Philippe,619.76,1604.19
+103,4,Levi's Bomber Jacket,Levi's,490.89,1098.28
+104,4,U.S. Polo Classic Jeans,U.S. Polo,369.83,819.65
+105,4,Raymond Mandarin Collar Shirt,Raymond,389.12,1210.0
+106,4,Arrow Slim Fit Shirt,Arrow,575.38,1539.39
+107,4,Allen Solly Casual Polo,Allen Solly,490.16,1274.41
+108,4,Peter England Chino Trousers,Peter England,1172.53,2920.41
+109,4,Van Heusen Denim Jacket,Van Heusen,804.84,1813.33
+110,4,Louis Philippe Formal Blazer,Louis Philippe,382.38,772.27
+111,4,Levi's Linen Kurta,Levi's,212.99,682.87
+112,4,U.S. Polo Henley T-Shirt,U.S. Polo,516.34,1669.85
+113,4,Raymond Oxford Shirt,Raymond,552.68,1112.23
+114,4,Arrow Jogger Pants,Arrow,599.73,1907.92
+115,4,Allen Solly Cargo Shorts,Allen Solly,510.39,1661.0
+116,4,Peter England V-Neck Sweater,Peter England,399.55,1212.98
+117,4,Van Heusen Track Pants,Van Heusen,256.2,776.89
+118,4,Louis Philippe Bomber Jacket,Louis Philippe,230.91,528.87
+119,4,Levi's Classic Jeans,Levi's,447.51,1430.81
+120,4,U.S. Polo Mandarin Collar Shirt,U.S. Polo,222.78,617.48
+121,4,Raymond Slim Fit Shirt,Raymond,286.7,760.49
+122,4,Arrow Casual Polo,Arrow,417.33,1381.95
+123,4,Allen Solly Chino Trousers,Allen Solly,424.48,1308.01
+124,4,Peter England Denim Jacket,Peter England,230.5,655.11
+125,4,Van Heusen Formal Blazer,Van Heusen,1010.11,2359.52
+126,4,Louis Philippe Linen Kurta,Louis Philippe,1023.83,2320.12
+127,4,Levi's Henley T-Shirt,Levi's,555.67,1701.45
+128,4,U.S. Polo Oxford Shirt,U.S. Polo,539.57,1700.23
+129,4,Raymond Jogger Pants,Raymond,579.08,1701.46
+130,4,Arrow Cargo Shorts,Arrow,1480.03,4000.0
+131,4,Allen Solly V-Neck Sweater,Allen Solly,705.37,2190.59
+132,4,Peter England Track Pants,Peter England,795.78,1840.38
+133,4,Van Heusen Bomber Jacket,Van Heusen,311.58,810.69
+134,4,Louis Philippe Classic Jeans,Louis Philippe,543.92,1103.71
+135,4,Levi's Mandarin Collar Shirt,Levi's,1770.77,4000.0
+136,5,Zara Floral Kurti,Zara,206.08,539.7
+137,5,H&M Palazzo Set,H&M,571.88,1205.0
+138,5,W Anarkali Dress,W,1170.61,2959.43
+139,5,Biba Wrap Dress,Biba,393.25,1047.48
+140,5,FabIndia Embroidered Saree,FabIndia,1129.15,2338.13
+141,5,Global Desi Crop Top,Global Desi,636.08,1623.17
+142,5,AND Wide-Leg Pants,AND,404.77,1086.6
+143,5,Aurelia Denim Jacket,Aurelia,170.48,500.0
+144,5,Zara Maxi Dress,Zara,784.8,1760.29
+145,5,H&M Cotton Salwar,H&M,495.89,1001.94
+146,5,W A-Line Skirt,W,455.08,1480.08
+147,5,Biba Peplum Top,Biba,884.32,2114.54
+148,5,FabIndia Chanderi Dupatta,FabIndia,1211.1,2602.61
+149,5,Global Desi Printed Leggings,Global Desi,469.32,1202.91
+150,5,AND Shirt Dress,AND,387.62,1085.52
+151,5,Aurelia Floral Kurti,Aurelia,236.45,765.15
+152,5,Zara Palazzo Set,Zara,945.14,2681.86
+153,5,H&M Anarkali Dress,H&M,2080.4,5000.0
+154,5,W Wrap Dress,W,1290.44,2864.75
+155,5,Biba Embroidered Saree,Biba,1629.9,3278.67
+156,5,FabIndia Crop Top,FabIndia,501.62,1052.09
+157,5,Global Desi Wide-Leg Pants,Global Desi,827.1,2041.38
+158,5,AND Denim Jacket,AND,1186.48,2469.61
+159,5,Aurelia Maxi Dress,Aurelia,232.68,500.0
+160,5,Zara Cotton Salwar,Zara,362.29,876.74
+161,5,H&M A-Line Skirt,H&M,1509.25,4046.44
+162,5,W Peplum Top,W,340.77,694.12
+163,5,Biba Chanderi Dupatta,Biba,1447.66,3624.84
+164,5,FabIndia Printed Leggings,FabIndia,227.41,691.84
+165,5,Global Desi Shirt Dress,Global Desi,436.64,898.65
+166,5,AND Floral Kurti,AND,766.43,2062.98
+167,5,Aurelia Palazzo Set,Aurelia,513.46,1645.96
+168,5,Zara Anarkali Dress,Zara,487.52,1266.61
+169,5,H&M Wrap Dress,H&M,1608.82,3939.8
+170,5,W Embroidered Saree,W,303.08,775.38
+171,5,Biba Crop Top,Biba,445.9,1448.85
+172,5,FabIndia Wide-Leg Pants,FabIndia,707.53,2218.45
+173,5,Global Desi Denim Jacket,Global Desi,902.91,1858.74
+174,5,AND Maxi Dress,AND,481.93,1104.83
+175,5,Aurelia Cotton Salwar,Aurelia,536.5,1126.23
+176,5,Zara A-Line Skirt,Zara,929.95,2578.52
+177,5,H&M Peplum Top,H&M,936.76,2653.81
+178,5,W Chanderi Dupatta,W,640.3,1887.1
+179,5,Biba Printed Leggings,Biba,343.27,981.12
+180,5,FabIndia Shirt Dress,FabIndia,387.84,1145.31
+181,6,Nike Air Max 90,Nike,1605.62,3054.85
+182,6,Adidas Ultraboost 23,Adidas,1491.82,3354.54
+183,6,Puma RS-X,Puma,1922.03,4487.4
+184,6,Reebok Classic Leather,Reebok,1389.38,2702.01
+185,6,Bata Power Perfect,Bata,3138.97,5417.85
+186,6,Woodland Woodland Trekker,Woodland,2254.48,5374.35
+187,6,Skechers Go Walk 7,Skechers,4019.14,7498.53
+188,6,Red Tape Smith Derby,Red Tape,1322.77,3142.76
+189,6,Nike Gel-Kayano 30,Nike,1581.62,3858.76
+190,6,Adidas Fresh Foam 1080,Adidas,1376.87,2837.07
+191,6,Puma Cortez,Puma,963.93,1780.57
+192,6,Reebok Samba OG,Reebok,6411.21,12000.0
+193,6,Bata Suede Classic,Bata,2997.49,6786.51
+194,6,Woodland Nano X4,Woodland,2340.99,5295.45
+195,6,Skechers Comfy Slip-On,Skechers,1808.31,3072.8
+196,6,Red Tape Air Max 90,Red Tape,827.19,1687.81
+197,6,Nike Ultraboost 23,Nike,3176.64,5995.74
+198,6,Adidas RS-X,Adidas,1617.19,2804.77
+199,6,Puma Classic Leather,Puma,1951.99,4097.76
+200,6,Reebok Power Perfect,Reebok,1226.45,2115.38
+201,6,Bata Woodland Trekker,Bata,2141.16,3657.31
+202,6,Woodland Go Walk 7,Woodland,957.63,2198.28
+203,6,Skechers Smith Derby,Skechers,1313.2,2252.37
+204,6,Red Tape Gel-Kayano 30,Red Tape,1459.87,3625.46
+205,6,Nike Fresh Foam 1080,Nike,508.49,1162.43
+206,6,Adidas Cortez,Adidas,490.54,1194.84
+207,6,Puma Samba OG,Puma,846.91,1905.01
+208,6,Reebok Suede Classic,Reebok,1309.43,2681.5
+209,6,Bata Nano X4,Bata,3199.3,5537.42
+210,6,Woodland Comfy Slip-On,Woodland,1394.31,2780.42
+211,7,Prestige Pressure Cooker 5L,Prestige,974.61,1525.83
+212,7,Hawkins Non-Stick Tawa,Hawkins,765.49,1222.37
+213,7,Pigeon Kadhai Set,Pigeon,1011.13,2019.07
+214,7,Wonderchef Induction Cooktop,Wonderchef,418.99,785.61
+215,7,Butterfly Stainless Steel Pot,Butterfly,840.01,1416.88
+216,7,Milton Glass Casserole,Milton,1026.06,2154.33
+217,7,Borosil Mixer Grinder,Borosil,1182.86,1862.06
+218,7,Prestige Electric Kettle,Prestige,844.05,1565.29
+219,7,Hawkins Roti Maker,Hawkins,828.47,1580.68
+220,7,Pigeon Idli Maker,Pigeon,1191.05,2331.51
+221,7,Wonderchef Chopper,Wonderchef,4265.1,8000.0
+222,7,Butterfly Lunch Box Set,Butterfly,387.65,825.19
+223,7,Milton Water Bottle 1L,Milton,4756.19,8000.0
+224,7,Borosil Pressure Cooker 5L,Borosil,488.62,797.91
+225,7,Prestige Non-Stick Tawa,Prestige,159.98,300.0
+226,7,Hawkins Kadhai Set,Hawkins,638.38,1006.19
+227,7,Pigeon Induction Cooktop,Pigeon,1206.11,2050.87
+228,7,Wonderchef Stainless Steel Pot,Wonderchef,3521.19,7226.8
+229,7,Butterfly Glass Casserole,Butterfly,346.66,741.02
+230,7,Milton Mixer Grinder,Milton,1126.3,2319.91
+231,7,Borosil Electric Kettle,Borosil,242.92,524.15
+232,7,Prestige Roti Maker,Prestige,3321.48,6966.37
+233,7,Hawkins Idli Maker,Hawkins,1845.98,4079.12
+234,7,Pigeon Chopper,Pigeon,653.4,1054.02
+235,7,Wonderchef Lunch Box Set,Wonderchef,173.13,379.65
+236,7,Butterfly Water Bottle 1L,Butterfly,2266.81,4707.07
+237,7,Milton Pressure Cooker 5L,Milton,799.62,1410.18
+238,7,Borosil Non-Stick Tawa,Borosil,2547.58,4279.35
+239,7,Prestige Kadhai Set,Prestige,772.03,1555.88
+240,7,Hawkins Induction Cooktop,Hawkins,742.33,1610.1
+241,7,Pigeon Stainless Steel Pot,Pigeon,599.46,1070.68
+242,7,Wonderchef Glass Casserole,Wonderchef,1612.31,2583.13
+243,7,Butterfly Mixer Grinder,Butterfly,1033.29,1709.98
+244,7,Milton Electric Kettle,Milton,1218.6,2363.19
+245,7,Borosil Roti Maker,Borosil,275.85,439.75
+246,8,IKEA Study Desk,IKEA,13173.28,23287.29
+247,8,Nilkamal Office Chair,Nilkamal,17033.0,28580.43
+248,8,Godrej Interio Bookshelf 5-Tier,Godrej Interio,5165.2,9753.69
+249,8,Urban Ladder TV Unit,Urban Ladder,20986.77,40000.0
+250,8,Wakefit Shoe Rack,Wakefit,20624.63,33302.95
+251,8,Pepperfry Wardrobe 3-Door,Pepperfry,8109.86,14503.02
+252,8,HomeTown Bedside Table,HomeTown,16388.42,24928.87
+253,8,IKEA Sofa Set 3+1,IKEA,12282.37,19760.84
+254,8,Nilkamal Dining Table 6-Seater,Nilkamal,1467.61,2396.08
+255,8,Godrej Interio Bean Bag XXL,Godrej Interio,4365.56,7310.02
+256,8,Urban Ladder Wall Shelf Set,Urban Ladder,8316.61,15308.44
+257,8,Wakefit Dressing Table,Wakefit,15977.52,30287.57
+258,8,Pepperfry Study Desk,Pepperfry,1622.96,3181.68
+259,8,HomeTown Office Chair,HomeTown,1518.92,2497.51
+260,8,IKEA Bookshelf 5-Tier,IKEA,4324.17,8579.81
+261,8,Nilkamal TV Unit,Nilkamal,1146.64,2000.0
+262,8,Godrej Interio Shoe Rack,Godrej Interio,5454.89,8366.77
+263,8,Urban Ladder Wardrobe 3-Door,Urban Ladder,7810.99,11770.2
+264,8,Wakefit Bedside Table,Wakefit,2791.12,4424.27
+265,8,Pepperfry Sofa Set 3+1,Pepperfry,4834.47,8534.11
+266,8,HomeTown Dining Table 6-Seater,HomeTown,12172.61,18289.94
+267,8,IKEA Bean Bag XXL,IKEA,3996.07,6012.77
+268,8,Nilkamal Wall Shelf Set,Nilkamal,3369.82,4939.21
+269,8,Godrej Interio Dressing Table,Godrej Interio,5438.03,8255.29
+270,8,Urban Ladder Study Desk,Urban Ladder,2583.41,4119.31
+271,9,Decathlon Treadmill T200,Decathlon,16716.67,24152.23
+272,9,PowerMax Dumbbell Set 20kg,PowerMax,1976.61,3659.59
+273,9,Lifelong Yoga Mat 6mm,Lifelong,936.8,1783.41
+274,9,Cultsport Resistance Bands,Cultsport,2248.25,4358.54
+275,9,Boldfit Exercise Bike,Boldfit,1706.63,3167.7
+276,9,Cockatoo Pull-Up Bar,Cockatoo,1567.61,2848.39
+277,9,Fitkit Kettlebell 12kg,Fitkit,1317.16,2104.4
+278,9,Decathlon Ab Roller,Decathlon,1214.13,2013.17
+279,9,PowerMax Foam Roller,PowerMax,488.01,803.32
+280,9,Lifelong Skipping Rope,Lifelong,7409.46,13459.37
+281,9,Cultsport Weight Bench,Cultsport,3713.65,6213.6
+282,9,Boldfit Spin Bike Pro,Boldfit,2845.34,4793.54
+283,9,Cockatoo Treadmill T200,Cockatoo,1851.51,3119.77
+284,9,Fitkit Dumbbell Set 20kg,Fitkit,904.72,1388.66
+285,9,Decathlon Yoga Mat 6mm,Decathlon,1174.36,1687.33
+286,9,PowerMax Resistance Bands,PowerMax,559.16,879.76
+287,9,Lifelong Exercise Bike,Lifelong,1270.0,1878.57
+288,9,Cultsport Pull-Up Bar,Cultsport,640.7,1227.65
+289,9,Boldfit Kettlebell 12kg,Boldfit,9981.31,18410.08
+290,9,Cockatoo Ab Roller,Cockatoo,5026.91,8373.84
+291,9,Fitkit Foam Roller,Fitkit,2221.83,3813.44
+292,9,Decathlon Skipping Rope,Decathlon,838.91,1522.76
+293,9,PowerMax Weight Bench,PowerMax,824.65,1282.01
+294,9,Lifelong Spin Bike Pro,Lifelong,1841.38,2935.01
+295,9,Cultsport Treadmill T200,Cultsport,5499.72,8746.65
+296,9,Boldfit Dumbbell Set 20kg,Boldfit,11501.95,22880.49
+297,9,Cockatoo Yoga Mat 6mm,Cockatoo,611.94,900.38
+298,9,Fitkit Resistance Bands,Fitkit,4104.65,6131.57
+299,9,Decathlon Exercise Bike,Decathlon,1239.96,1871.11
+300,9,PowerMax Pull-Up Bar,PowerMax,1411.72,2195.59
+301,10,Decathlon Tent 4-Person,Decathlon,1374.51,2224.41
+302,10,Wildcraft Sleeping Bag 0°C,Wildcraft,473.9,941.17
+303,10,Quechua Trekking Pole,Quechua,849.88,1679.25
+304,10,Coleman Headlamp 300L,Coleman,460.1,873.22
+305,10,Trekmonk Hiking Backpack 50L,Trekmonk,803.5,1206.78
+306,10,Naturehike Camp Stove,Naturehike,2514.65,4440.72
+307,10,Forclaz Water Purifier,Forclaz,1369.16,2337.74
+308,10,Decathlon Hammock,Decathlon,2848.66,4423.36
+309,10,Wildcraft Dry Bag 20L,Wildcraft,704.88,1109.59
+310,10,Quechua Compass Pro,Quechua,2279.17,3706.5
+311,10,Coleman First Aid Kit,Coleman,292.37,431.84
+312,10,Trekmonk Insulated Bottle,Trekmonk,1284.88,2223.46
+313,10,Naturehike Tent 4-Person,Naturehike,2650.65,3961.35
+314,10,Forclaz Sleeping Bag 0°C,Forclaz,252.21,417.72
+315,10,Decathlon Trekking Pole,Decathlon,709.46,1121.36
+316,10,Wildcraft Headlamp 300L,Wildcraft,1495.65,2221.97
+317,10,Quechua Hiking Backpack 50L,Quechua,3683.96,5675.73
+318,10,Coleman Camp Stove,Coleman,680.18,1206.63
+319,10,Trekmonk Water Purifier,Trekmonk,2157.16,3561.53
+320,10,Naturehike Hammock,Naturehike,5365.76,8687.64
+321,10,Forclaz Dry Bag 20L,Forclaz,1991.38,3730.04
+322,10,Decathlon Compass Pro,Decathlon,881.8,1739.26
+323,10,Wildcraft First Aid Kit,Wildcraft,1562.42,3049.63
+324,10,Quechua Insulated Bottle,Quechua,779.96,1175.08
+325,10,Coleman Tent 4-Person,Coleman,1350.89,2308.79
+326,11,Penguin The Midnight Library,Penguin,165.51,433.68
+327,11,HarperCollins Atomic Habits Fiction,HarperCollins,293.62,576.09
+328,11,Rupa The Alchemist,Rupa,193.57,374.22
+329,11,Hachette Where the Crawdads Sing,Hachette,248.2,595.26
+330,11,Pan Macmillan It Ends with Us,Pan Macmillan,165.8,372.26
+331,11,Bloomsbury Verity,Bloomsbury,369.29,783.2
+332,11,Vintage The Silent Patient,Vintage,152.03,393.17
+333,11,Penguin Project Hail Mary,Penguin,68.62,150.0
+334,11,HarperCollins Shantaram,HarperCollins,130.02,265.5
+335,11,Rupa The God of Small Things,Rupa,241.41,479.4
+336,11,Hachette A Suitable Boy,Hachette,460.79,1245.09
+337,11,Pan Macmillan Train to Pakistan,Pan Macmillan,281.92,764.61
+338,11,Bloomsbury The White Tiger,Bloomsbury,63.77,150.0
+339,11,Vintage Interpreter of Maladies,Vintage,105.74,202.51
+340,11,Penguin Pachinko,Penguin,358.44,916.28
+341,11,HarperCollins The Midnight Library,HarperCollins,253.47,682.79
+342,11,Rupa Atomic Habits Fiction,Rupa,588.42,1500.0
+343,11,Hachette The Alchemist,Hachette,182.18,364.13
+344,11,Pan Macmillan Where the Crawdads Sing,Pan Macmillan,116.68,290.82
+345,11,Bloomsbury It Ends with Us,Bloomsbury,196.48,494.29
+346,11,Vintage Verity,Vintage,134.99,360.31
+347,11,Penguin The Silent Patient,Penguin,455.0,861.94
+348,11,HarperCollins Project Hail Mary,HarperCollins,134.64,353.66
+349,11,Rupa Shantaram,Rupa,158.59,406.09
+350,11,Hachette The God of Small Things,Hachette,140.41,270.02
+351,11,Pan Macmillan A Suitable Boy,Pan Macmillan,297.76,733.4
+352,11,Bloomsbury Train to Pakistan,Bloomsbury,117.66,278.97
+353,11,Vintage The White Tiger,Vintage,300.68,601.8
+354,11,Penguin Interpreter of Maladies,Penguin,671.91,1397.3
+355,11,HarperCollins Pachinko,HarperCollins,77.97,170.38
+356,11,Rupa The Midnight Library,Rupa,404.63,1122.28
+357,11,Hachette Atomic Habits Fiction,Hachette,250.12,557.29
+358,11,Pan Macmillan The Alchemist,Pan Macmillan,106.14,248.15
+359,11,Bloomsbury Where the Crawdads Sing,Bloomsbury,207.46,505.17
+360,11,Vintage It Ends with Us,Vintage,263.28,720.33
+361,11,Penguin Verity,Penguin,130.83,300.93
+362,11,HarperCollins The Silent Patient,HarperCollins,266.73,622.24
+363,11,Rupa Project Hail Mary,Rupa,430.97,1186.83
+364,11,Hachette Shantaram,Hachette,128.96,353.42
+365,11,Pan Macmillan The God of Small Things,Pan Macmillan,94.73,268.34
+366,11,Bloomsbury A Suitable Boy,Bloomsbury,168.64,441.21
+367,11,Vintage Train to Pakistan,Vintage,211.47,489.8
+368,11,Penguin The White Tiger,Penguin,418.72,890.51
+369,11,HarperCollins Interpreter of Maladies,HarperCollins,168.66,433.1
+370,11,Rupa Pachinko,Rupa,203.71,371.0
+371,12,Penguin Atomic Habits,Penguin,192.28,390.39
+372,12,Oxford Sapiens,Oxford,105.11,252.64
+373,12,Cambridge Thinking Fast and Slow,Cambridge,146.36,323.44
+374,12,Wiley Deep Work,Wiley,164.24,322.32
+375,12,HarperCollins The Psychology of Money,HarperCollins,371.55,649.76
+376,12,Simon & Schuster Ikigai,Simon & Schuster,158.11,279.97
+377,12,Rupa Rich Dad Poor Dad,Rupa,83.41,200.0
+378,12,Penguin Zero to One,Penguin,393.87,746.64
+379,12,Oxford Start with Why,Oxford,1617.94,2708.39
+380,12,Cambridge The Lean Startup,Cambridge,776.07,1660.78
+381,12,Wiley Educated,Wiley,376.39,645.68
+382,12,HarperCollins Becoming,HarperCollins,146.71,366.21
+383,12,Simon & Schuster Wings of Fire,Simon & Schuster,1759.75,3000.0
+384,12,Rupa India After Gandhi,Rupa,362.83,806.28
+385,12,Penguin Atomic Habits Black,Penguin,495.12,885.76
+386,12,Oxford Sapiens White,Oxford,394.69,702.47
+387,12,Cambridge Thinking Fast and Slow Silver,Cambridge,368.98,757.61
+388,12,Wiley Deep Work Gold,Wiley,314.65,536.16
+389,12,HarperCollins The Psychology of Money Blue,HarperCollins,322.72,651.79
+390,12,Simon & Schuster Ikigai Red,Simon & Schuster,1097.55,2144.29
+391,12,Rupa Rich Dad Poor Dad Green,Rupa,1024.54,1800.75
+392,12,Penguin Zero to One Grey,Penguin,112.72,200.0
+393,12,Oxford Start with Why Rose Gold,Oxford,140.75,298.7
+394,12,Cambridge The Lean Startup Midnight,Cambridge,237.1,457.49
+395,12,Wiley Educated Navy,Wiley,867.76,1459.44
+396,12,HarperCollins Becoming Ivory,HarperCollins,1017.91,1832.07
+397,12,Simon & Schuster Wings of Fire Charcoal,Simon & Schuster,752.58,1262.59
+398,12,Rupa India After Gandhi Coral,Rupa,208.89,360.67
+399,12,Penguin Atomic Habits Lavender,Penguin,254.94,543.07
+400,12,Oxford Sapiens Teal,Oxford,595.92,1078.85
+401,12,Cambridge Thinking Fast and Slow Copper,Cambridge,299.88,658.29
+402,12,Wiley Deep Work Bronze,Wiley,257.74,600.99
+403,12,HarperCollins The Psychology of Money Pro,HarperCollins,282.94,606.66
+404,12,Simon & Schuster Ikigai Lite,Simon & Schuster,949.2,1698.03
+405,12,Rupa Rich Dad Poor Dad Plus,Rupa,691.39,1157.34
+406,12,Penguin Zero to One Max,Penguin,366.15,628.15
+407,12,Oxford Start with Why Ultra,Oxford,498.17,965.98
+408,12,Cambridge The Lean Startup SE,Cambridge,139.95,332.06
+409,12,Wiley Educated Elite,Wiley,298.03,543.73
+410,12,HarperCollins Becoming Deluxe,HarperCollins,825.83,1575.83
+411,13,Lakme Vitamin C Serum,Lakme,92.92,285.75
+412,13,Mamaearth Sunscreen SPF 50,Mamaearth,599.48,1628.51
+413,13,The Body Shop Niacinamide Cream,The Body Shop,78.22,200.0
+414,13,Nivea Aloe Vera Gel,Nivea,1019.47,3916.39
+415,13,Cetaphil Face Wash 150ml,Cetaphil,178.22,645.0
+416,13,Himalaya Night Cream,Himalaya,486.04,1378.77
+417,13,Plum Sheet Mask Pack,Plum,400.1,1096.28
+418,13,Dot & Key Lip Balm SPF 15,Dot & Key,502.78,1128.57
+419,13,Lakme Under Eye Cream,Lakme,414.18,1281.07
+420,13,Mamaearth Moisturizer 200ml,Mamaearth,100.62,252.54
+421,13,The Body Shop Toner 100ml,The Body Shop,290.43,1147.4
+422,13,Nivea Face Scrub,Nivea,297.4,862.38
+423,13,Cetaphil Body Lotion,Cetaphil,289.07,647.68
+424,13,Himalaya Vitamin C Serum,Himalaya,142.8,534.56
+425,13,Plum Sunscreen SPF 50,Plum,462.65,1170.7
+426,13,Dot & Key Niacinamide Cream,Dot & Key,154.34,455.06
+427,13,Lakme Aloe Vera Gel,Lakme,935.61,2289.15
+428,13,Mamaearth Face Wash 150ml,Mamaearth,655.02,1462.74
+429,13,The Body Shop Night Cream,The Body Shop,405.37,1228.79
+430,13,Nivea Sheet Mask Pack,Nivea,699.01,2205.14
+431,13,Cetaphil Lip Balm SPF 15,Cetaphil,78.7,227.32
+432,13,Himalaya Under Eye Cream,Himalaya,157.35,357.11
+433,13,Plum Moisturizer 200ml,Plum,657.42,1516.75
+434,13,Dot & Key Toner 100ml,Dot & Key,183.67,557.65
+435,13,Lakme Face Scrub,Lakme,239.8,611.34
+436,13,Mamaearth Body Lotion,Mamaearth,122.15,322.4
+437,13,The Body Shop Vitamin C Serum,The Body Shop,153.54,455.98
+438,13,Nivea Sunscreen SPF 50,Nivea,828.33,2334.7
+439,13,Cetaphil Niacinamide Cream,Cetaphil,451.38,1487.33
+440,13,Himalaya Aloe Vera Gel,Himalaya,472.28,1160.37
+441,13,Plum Face Wash 150ml,Plum,220.69,629.25
+442,13,Dot & Key Night Cream,Dot & Key,364.74,1103.17
+443,13,Lakme Sheet Mask Pack,Lakme,1080.9,2521.47
+444,13,Mamaearth Lip Balm SPF 15,Mamaearth,247.01,567.87
+445,13,The Body Shop Under Eye Cream,The Body Shop,303.65,972.24
+446,13,Nivea Moisturizer 200ml,Nivea,1509.44,4157.84
+447,13,Cetaphil Toner 100ml,Cetaphil,512.77,1767.46
+448,13,Himalaya Face Scrub,Himalaya,197.82,635.95
+449,13,Plum Body Lotion,Plum,623.13,1649.35
+450,13,Dot & Key Vitamin C Serum,Dot & Key,122.01,282.64
+451,13,Lakme Sunscreen SPF 50,Lakme,388.96,941.86
+452,13,Mamaearth Niacinamide Cream,Mamaearth,562.93,1647.84
+453,13,The Body Shop Aloe Vera Gel,The Body Shop,392.01,1357.92
+454,13,Nivea Face Wash 150ml,Nivea,520.18,1634.52
+455,13,Cetaphil Night Cream,Cetaphil,782.67,1956.34
+456,14,MuscleBlaze Whey Protein 1kg,MuscleBlaze,593.03,1474.78
+457,14,Optimum Nutrition BCAA Powder,Optimum Nutrition,671.16,1446.82
+458,14,HealthKart Multivitamin 60ct,HealthKart,484.23,1253.14
+459,14,GNC Omega-3 Capsules,GNC,171.41,543.95
+460,14,Amway Pre-Workout,Amway,662.51,2166.58
+461,14,Oziva Creatine Monohydrate,Oziva,349.78,1067.74
+462,14,Wellbeing Vitamin D3 Drops,Wellbeing,563.9,1703.15
+463,14,MuscleBlaze Biotin Tablets,MuscleBlaze,990.74,2011.26
+464,14,Optimum Nutrition Ashwagandha Extract,Optimum Nutrition,298.6,784.26
+465,14,HealthKart Plant Protein 1kg,HealthKart,400.67,826.79
+466,14,GNC Electrolyte Powder,GNC,323.47,896.69
+467,14,Amway Collagen Peptides,Amway,1202.87,2470.32
+468,14,Oziva Whey Protein 1kg,Oziva,268.18,613.76
+469,14,Wellbeing BCAA Powder,Wellbeing,1219.74,2795.96
+470,14,MuscleBlaze Multivitamin 60ct,MuscleBlaze,466.33,1244.14
+471,14,Optimum Nutrition Omega-3 Capsules,Optimum Nutrition,590.45,1302.25
+472,14,HealthKart Pre-Workout,HealthKart,964.93,1948.88
+473,14,GNC Creatine Monohydrate,GNC,360.7,1155.4
+474,14,Amway Vitamin D3 Drops,Amway,743.07,2183.94
+475,14,Oziva Biotin Tablets,Oziva,316.61,783.63
+476,14,Wellbeing Ashwagandha Extract,Wellbeing,1021.88,2728.65
+477,14,MuscleBlaze Plant Protein 1kg,MuscleBlaze,341.28,820.92
+478,14,Optimum Nutrition Electrolyte Powder,Optimum Nutrition,989.63,2807.58
+479,14,HealthKart Collagen Peptides,HealthKart,358.06,834.49
+480,14,GNC Whey Protein 1kg,GNC,403.93,912.73
+481,14,Amway BCAA Powder,Amway,281.05,571.73
+482,14,Oziva Multivitamin 60ct,Oziva,330.76,666.28
+483,14,Wellbeing Omega-3 Capsules,Wellbeing,453.22,1071.11
+484,14,MuscleBlaze Pre-Workout,MuscleBlaze,464.14,1274.85
+485,14,Optimum Nutrition Creatine Monohydrate,Optimum Nutrition,644.54,2072.13
+486,14,HealthKart Vitamin D3 Drops,HealthKart,387.7,953.7
+487,14,GNC Biotin Tablets,GNC,159.78,529.47
+488,14,Amway Ashwagandha Extract,Amway,636.61,1403.26
+489,14,Oziva Plant Protein 1kg,Oziva,461.76,1220.12
+490,14,Wellbeing Electrolyte Powder,Wellbeing,598.94,1506.9
+491,14,MuscleBlaze Collagen Peptides,MuscleBlaze,330.45,724.83
+492,14,Optimum Nutrition Whey Protein 1kg,Optimum Nutrition,359.39,776.7
+493,14,HealthKart BCAA Powder,HealthKart,354.11,725.0
+494,14,GNC Multivitamin 60ct,GNC,724.37,2365.83
+495,14,Amway Omega-3 Capsules,Amway,991.63,2748.44
+496,14,Oziva Pre-Workout,Oziva,355.19,756.97
+497,14,Wellbeing Creatine Monohydrate,Wellbeing,348.76,766.1
+498,14,MuscleBlaze Vitamin D3 Drops,MuscleBlaze,647.96,1650.41
+499,14,Optimum Nutrition Biotin Tablets,Optimum Nutrition,1437.42,2984.03
+500,14,HealthKart Ashwagandha Extract,HealthKart,1137.31,3504.72

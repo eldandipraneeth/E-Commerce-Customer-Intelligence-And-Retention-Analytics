@@ -1,0 +1,82 @@
+/* =========================================================================
+   COMPLETE DAX MEASURE LIBRARY
+   To use: Create a '_MeasureTable' and paste these explicitly into Power BI.
+   ========================================================================= */
+
+// --- 1. CORE FINANCIALS ---
+Total Revenue = SUM('analytical_master_table'[line_total])
+
+Total Profit = SUM('analytical_master_table'[gross_profit])
+
+Profit Margin % = DIVIDE([Total Profit], [Total Revenue], 0)
+
+Total Orders = DISTINCTCOUNT('analytical_master_table'[order_id])
+
+Total Active Customers = DISTINCTCOUNT('analytical_master_table'[customer_id])
+
+
+// --- 2. CUSTOMER INTELLIGENCE ---
+AOV = DIVIDE([Total Revenue], [Total Orders], 0)
+
+Purchase Frequency = 
+VAR TotalOrders = [Total Orders]
+VAR TotalCust = [Total Active Customers]
+RETURN DIVIDE(TotalOrders, TotalCust, 0)
+
+CLV (Historical) = 
+VAR TotalRev = [Total Revenue]
+VAR TotalCust = [Total Active Customers]
+RETURN DIVIDE(TotalRev, TotalCust, 0)
+
+
+// --- 3. RETENTION METRICS ---
+Repeat Buyers Count = 
+CALCULATE(
+    DISTINCTCOUNT('analytical_master_table'[customer_id]),
+    FILTER('analytical_master_table', 'analytical_master_table'[total_orders] > 1)
+)
+
+Repeat Purchase Rate % = DIVIDE([Repeat Buyers Count], [Total Active Customers], 0)
+
+Average Customer Lifespan (Days) = 
+AVERAGEX(
+    VALUES('analytical_master_table'[customer_id]),
+    CALCULATE(MAX('analytical_master_table'[customer_tenure_days]))
+)
+
+
+// --- 4. TIME INTELLIGENCE ---
+// Note: Requires a proper Date table linked to order_date
+
+Revenue YTD = TOTALYTD([Total Revenue], 'Dim_Date'[Date])
+
+Revenue Last Year = CALCULATE([Total Revenue], SAMEPERIODLASTYEAR('Dim_Date'[Date]))
+
+Revenue YoY Growth % = 
+VAR CurrentRev = [Total Revenue]
+VAR PriorRev = [Revenue Last Year]
+RETURN DIVIDE(CurrentRev - PriorRev, PriorRev, 0)
+
+
+// --- 5. PARETO ANALYSIS (80/20) ---
+Customer Rank by Revenue = 
+RANKX(
+    ALL('customer_segments'[customer_id]),
+    [Total Revenue],
+    ,
+    DESC,
+    Dense
+)
+
+Cumulative Revenue = 
+VAR CurrentRank = [Customer Rank by Revenue]
+RETURN
+CALCULATE(
+    [Total Revenue],
+    FILTER(
+        ALL('customer_segments'[customer_id]),
+        [Customer Rank by Revenue] <= CurrentRank
+    )
+)
+
+Pareto % = DIVIDE([Cumulative Revenue], CALCULATE([Total Revenue], ALL('customer_segments'[customer_id])), 0)

@@ -1,0 +1,28 @@
+==================================================
+             DATA QUALITY REPORT
+==================================================
+
+--- Missing Values & Duplicates ---
+dim_date        | Missing:      0 | Duplicates:      0
+categories      | Missing:      0 | Duplicates:      0
+products        | Missing:      0 | Duplicates:      0
+customers       | Missing:      0 | Duplicates:      0
+orders          | Missing:      0 | Duplicates:      0
+order_items     | Missing:      0 | Duplicates:      0
+
+--- Data Types Validated & Casted ---
+Dates parsed to datetime, financial columns cast to float.
+
+--- Foreign Key Validation ---
+[PASS] products -> categories
+[PASS] orders -> customers
+[PASS] order_items -> orders
+[PASS] order_items -> products
+
+--- Exporting Cleaned Data ---
+Saved: data\processed\dim_date.csv (731 rows)
+Saved: data\processed\categories.csv (14 rows)
+Saved: data\processed\products.csv (500 rows)
+Saved: data\processed\customers.csv (20,000 rows)
+Saved: data\processed\orders.csv (60,000 rows)
+Saved: data\processed\order_items.csv (151,688 rows)

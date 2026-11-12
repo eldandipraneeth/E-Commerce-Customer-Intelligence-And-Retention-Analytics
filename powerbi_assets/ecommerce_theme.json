@@ -1,0 +1,77 @@
+{
+    "name": "Ecommerce Executive Dark Theme",
+    "dataColors": [
+        "#0078D4", "#00B7C3", "#00CC6A", "#FFB900", "#D83B01", "#E3008C", "#8764B8", "#004B8B"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#252423",
+    "tableAccent": "#0078D4",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*": [
+                    {
+                        "fontSize": 10,
+                        "fontFamily": "Segoe UI",
+                        "color": {"solid": {"color": "#605E5C"}}
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "fontColor": {"solid": {"color": "#252423"}},
+                        "background": {"solid": {"color": "#FFFFFF"}},
+                        "alignment": "left",
+                        "fontSize": 14,
+                        "fontFamily": "Segoe UI Semibold"
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color": {"solid": {"color": "#FFFFFF"}},
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {"solid": {"color": "#EDEBE9"}},
+                        "radius": 4
+                    }
+                ],
+                "dropShadow": [
+                    {
+                        "show": true,
+                        "color": {"solid": {"color": "#000000"}},
+                        "position": "Outer",
+                        "preset": "Bottom",
+                        "shadowBlur": 10,
+                        "shadowSpread": 0,
+                        "transparency": 90
+                    }
+                ]
+            }
+        },
+        "card": {
+            "*": {
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {"solid": {"color": "#0078D4"}},
+                        "fontSize": 28,
+                        "fontFamily": "Segoe UI Bold"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "color": {"solid": {"color": "#605E5C"}},
+                        "fontSize": 12,
+                        "fontFamily": "Segoe UI"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment & Credentials
+.env
+.env.*
+venv/
+.venv/
+env/
+
+# Logs & Temporary files
+*.log
+*.tmp
+temp/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Private agent & developer context documents (Internal only)
+AGENTS.md
+PROJECT_CONTEXT.md
+

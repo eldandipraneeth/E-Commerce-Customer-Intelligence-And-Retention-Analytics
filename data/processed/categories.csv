@@ -1,0 +1,15 @@
+category_id,category_name,sub_category
+1,Electronics,Smartphones
+2,Electronics,Laptops
+3,Electronics,Headphones
+4,Clothing,Men's Wear
+5,Clothing,Women's Wear
+6,Clothing,Footwear
+7,Home & Kitchen,Cookware
+8,Home & Kitchen,Furniture
+9,Sports & Outdoors,Fitness Equipment
+10,Sports & Outdoors,Camping Gear
+11,Books,Fiction
+12,Books,Non-Fiction
+13,Beauty & Health,Skincare
+14,Beauty & Health,Supplements
