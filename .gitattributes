@@ -1,0 +1,3 @@
+# Exclude Jupyter Notebooks from language statistics
+# so that Python and SQL are recognized as the primary codebase languages.
+*.ipynb linguist-detectable=false
