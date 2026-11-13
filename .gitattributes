@@ -1,2 +1,9 @@
+# Exclude Jupyter Notebooks from language stats (base64 chart images skew stats)
 *.ipynb linguist-vendored
+
+# Exclude Power Query M scripts from misdetection as Wolfram Language
 *.m linguist-vendored
+
+# Force GitHub Linguist to detect and include SQL in repository language statistics
+*.sql linguist-detectable=true
+*.sql linguist-language=SQL
